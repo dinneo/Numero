@@ -1,8 +1,13 @@
 osx_image: xcode10.2
 language: swift
+#normal travis config
+#os: osx
+#xcode_project: Numero.xcodeproj
+#xcode_scheme: Numero
+#xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone 8
+
+#fatslane approach
 #script:
 #- fastlane scan
-os: osx
-xcode_project: Numero.xcodeproj
-xcode_scheme: Numero
-xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone 8
+#--device "iPhone 8"
+
